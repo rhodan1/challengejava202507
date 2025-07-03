@@ -37,7 +37,7 @@ sequenceDiagram
     participant Repository
     participant BaseDeDatos
 
-    Cliente->>Controller: POST /api/v1/users
+    Cliente->>Controller: POST /api/users
     Controller->>Service: validar y procesar usuario
     Service->>Repository: guardar usuario
     Repository->>BaseDeDatos: persistir datos
