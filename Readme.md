@@ -59,6 +59,7 @@ Hay dos tests, para probar los metodos publicos de la clase UserService
 - UserServiceEdgeCaseTest
 
 Se incluye Postman collection para probar los endpoints.
+[ChallengeUsuariosAPI.postman_collection.json](usuariosAPI/postman/ChallengeUsuariosAPI.postman_collection.json)
 
 ## Seguridad 
 
