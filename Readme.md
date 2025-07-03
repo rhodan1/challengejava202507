@@ -89,3 +89,16 @@ Se incluye Postman collection para probar los endpoints.
 
 - Los datos se pierden al reiniciar (uso de H2 en memoria).
 - Para persistencia real, configurar datasource en application.properties
+
+
+## Mejoras recomendadas al proyecto
+
+- Versionamiento de api: /api/v1
+- Crear Capa Domain Model si el servicio tiene logica mas compleja que un CRUD (arquitectura DDD)
+- Implementar interfaces para el UserService y Repository
+- Llevar datos de seguridad, jwt key, a secrets en github repository secrets, y configurarlo en pipeline, tomar variable desde container variable de entorno
+- Log de todos los requests y responses de cada peticion con un Filter (excluir datos sensibles)
+- Aplicar validaciones de token JWT en cada peticion
+- Mejorar documentacion de Swagger
+- Usar Mapper (MapStruct)
+- Crear metodos en API Controller para Telefonos
