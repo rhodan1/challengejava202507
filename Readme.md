@@ -27,6 +27,8 @@ Incluye validaciones de campos, hashing de contraseñas y control de acceso vía
 - Arquitectura en capas: Controller -> Service -> Repository -> DB
 - Modelos de clases y Objetos: DTOs (API Requests y Responses). Entidades (de Persistencia)
 
+### Diagrama secuencia Creacion de Usuario
+
 ```mermaid
 sequenceDiagram
     actor Cliente
