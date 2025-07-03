@@ -26,6 +26,7 @@ Incluye validaciones de campos, hashing de contraseñas y control de acceso vía
 - Tests con JUnit y SpringBootTest
 - Arquitectura en capas: Controller -> Service -> Repository -> DB
 - Modelos de clases y Objetos: DTOs (API Requests y Responses). Entidades (de Persistencia)
+- Manejo de exceptions a nivel de controller con GlobalExceptionHandler, para mapear exceptions con codigos HTTP estandares de respuesta (./config/GlobalExceptionHandler.java)
 
 ### Diagrama secuencia Creacion de Usuario
 
